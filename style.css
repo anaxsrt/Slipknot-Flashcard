@@ -20,8 +20,25 @@ body {
 .cartao__conteudo {
     text-align: center;
     background-color: rgb(243, 67, 67);
-    padding: 1rem; /* Adiciona padding para melhor espaçamento */
+    height: 100%;
 }
+
+.cartao__conteudo h3 {
+    background-color: black;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: black;
