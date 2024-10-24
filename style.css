@@ -1,5 +1,12 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #ff0000;
+    --card-back-color: hwb(0 9% 31%);
+}
+
+
 body {
-    background-color: darkred;
+    background: url(red\ backgroud\ flashcard.jpg);
     font-family: "Gluten", cursive;
     color: white;
 }
@@ -18,24 +25,22 @@ body {
 }
 
 .cartao__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
     background-color: rgb(243, 67, 67);
     height: 100%;
 }
 
 .cartao__conteudo h3 {
-    background-color: black;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
 }
-
-
-
-
-
-
 
 
 
